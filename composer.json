@@ -1,0 +1,30 @@
+{
+    "name": "http-tom/php-ftp",
+    "description": "PHP FTP helper utility",
+    "authors": [
+        {
+            "name": "Tom",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HttpTom\\": "src/HttpTom/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:http-tom/php-log"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "http-tom/php-log": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
